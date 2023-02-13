@@ -19,7 +19,7 @@ written_2/travel_guides/berlitz1/WhereToIbiza.txt:        •The tunnel through 
 written_2/travel_guides/berlitz1/WhereToIbiza.txt:        gateway through the great wall, where you’ll find yourself in the
 ```  
   
-Int this example, the command is again searching through subdirectories that weren't directly under written_2/ to find matches for the specified string. This is due to the -r option, which tells the command to search each subdirectory recursively. 
+In this example, the command is again searching through subdirectories that weren't directly under written_2/ to find matches for the specified string. This is due to the -r option, which tells the command to search each subdirectory recursively. 
 
 This option is extremely useful because you no longer have to use the find command to list all the subdirectories before running grep if you wished to search all the files in a directory. With this option, you simply add -r and it will recursively search for the string you want in all the files from a directory regardless of how the files are nested.   
   
@@ -74,6 +74,8 @@ Source: https://man7.org/linux/man-pages/man1/grep.1.html
 
 ## Option 3: -i  
   
+This option makes grep ignore case when searching for the specified string, meaning it returns the lines that contain the string while treating uppercase and lowercase letters as the same.   
+  
 Example 1:   
 ```
 [cs15lwi23ama@ieng6-201]:skill-demo1-data:489$ grep -i "PTAS" written_2/travel_guides/berlitz1/HandRIbiza.txt
@@ -94,6 +96,8 @@ Perhaps the most widely publicized acts of tolerance in recent history have been
 Source: https://man7.org/linux/man-pages/man1/grep.1.html  
   
 ## Option 4: -x  
+  
+This option makes grep only output lines that exactly match the specified string, meaning a full line must match with the specified string to be outputted.   
   
 Example 1:   
 ```
