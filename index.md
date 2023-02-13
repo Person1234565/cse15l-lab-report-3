@@ -68,11 +68,17 @@ Source: https://man7.org/linux/man-pages/man1/grep.1.html
   
 Example 1:   
 ```
+[cs15lwi23ama@ieng6-201]:skill-demo1-data:489$ grep -i "PTAS" written_2/travel_guides/berlitz1/HandRIbiza.txt
+        ✪less than 5,000 ptas.
+        ✪✪5,000–8,000 ptas.
+        ✪✪✪more than 8,000 ptas.
 
 ```
   
 Example 2:   
 ```
+[cs15lwi23ama@ieng6-201]:skill-demo1-data:488$ grep -i "perhaps" written_2/travel_guides/berlitz2/Amsterdam-Intro.txt
+Perhaps the most widely publicized acts of tolerance in recent history have been in the areas of sex and drugs. Amsterdammers looked at feasible and practical responses to the issues, and decriminalized some aspects of both. This does not make the city one huge den of iniquity and these areas are still controlled and regulated; in fact, you could visit Amsterdam and be quite unaware of these activities. There’s just a recognition here that provided no harm comes to you or others around you, then you should be free, as an adult, to make your own choices.
 
 ```
 
