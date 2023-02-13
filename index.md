@@ -21,12 +21,46 @@ Source: https://man7.org/linux/man-pages/man1/grep.1.html
   
 ## Option 2: -v  
   
+Example 1:   
+```
+
+```
+
+  
+Example 2:   
+```
+
+```
+
+  
 Source: https://man7.org/linux/man-pages/man1/grep.1.html  
 
 ## Option 3: -i  
   
+Example 1:   
+```
+
+```
+  
+Example 2:   
+```
+
+```
+
+  
 Source: https://man7.org/linux/man-pages/man1/grep.1.html  
   
 ## Option 4: -x  
+  
+Example 1:   
+```
+
+```
+  
+Example 2:   
+```
+
+```
+
   
 Source: https://man7.org/linux/man-pages/man1/grep.1.html  
