@@ -8,18 +8,26 @@ Example 1:
 [cs15lwi23ama@ieng6-201]:skill-demo1-data:422$ grep -r "bathhouses" written_2/
 written_2/travel_guides/berlitz1/HistoryJapan.txt:        segregated in the public bathhouses, with naked government spies to
 written_2/travel_guides/berlitz1/WhereToJapan.txt:        small traditional inns (ryokan) and bathhouses are now dwarfed by
-```
-
+```  
+  
+In this example, while the input directory was written_2, because of the -r option, the command searched through each subdirectory to find matches for the string. Without the -r option, the command would simply search the folders and files directly under written_2/, which would have outputted nothing.   
+  
 Example 2:  
 ```
 [cs15lwi23ama@ieng6-201]:skill-demo1-data:445$ grep -r "great wall" written_2/
 written_2/travel_guides/berlitz1/WhereToIbiza.txt:        •The tunnel through the great wall leads to a classic
 written_2/travel_guides/berlitz1/WhereToIbiza.txt:        gateway through the great wall, where you’ll find yourself in the
 ```  
+  
+Int this example, the command is again searching through subdirectories that weren't directly under written_2/ to find matches for the specified string. This is due to the -r option, which tells the command to search each subdirectory recursively. 
 
+This option is extremely useful because you no longer have to use the find command to list all the subdirectories before running grep if you wished to search all the files in a directory. With this option, you simply add -r and it will recursively search for the string you want in all the files from a directory regardless of how the files are nested.   
+  
 Source: https://man7.org/linux/man-pages/man1/grep.1.html    
   
 ## Option 2: -v  
+  
+This option makes grep list the lines that do not contain the specified string.    
   
 Example 1:   
 ```
