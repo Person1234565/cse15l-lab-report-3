@@ -48,6 +48,16 @@ Example 1:
   
 Example 2:   
 ```
+[cs15lwi23ama@ieng6-201]:skill-demo1-data:459$ grep -v "a" written_2/non-fiction/OUP/Castro/chZ.txt
+
+
+
+
+Zoot Suit
+
+
+
+
 
 ```
 
