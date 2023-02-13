@@ -89,11 +89,14 @@ Source: https://man7.org/linux/man-pages/man1/grep.1.html
   
 Example 1:   
 ```
+[cs15lwi23ama@ieng6-201]:skill-demo1-data:500$ grep -x  "The Bahamas" written_2/travel_guides/berlitz2/Bahamas-Intro.txt
 
 ```
   
 Example 2:   
 ```
+[cs15lwi23ama@ieng6-201]:skill-demo1-data:501$ grep -x  "The Bahamas and the Bahamians" written_2/travel_guides/berlitz2/Bahamas-Intro.txt
+The Bahamas and the Bahamians
 
 ```
 
