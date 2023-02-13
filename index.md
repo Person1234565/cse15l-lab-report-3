@@ -9,6 +9,14 @@ Example 1:
 written_2/travel_guides/berlitz1/HistoryJapan.txt:        segregated in the public bathhouses, with naked government spies to
 written_2/travel_guides/berlitz1/WhereToJapan.txt:        small traditional inns (ryokan) and bathhouses are now dwarfed by
 ```
+
+Example 2:  
+```
+[cs15lwi23ama@ieng6-201]:skill-demo1-data:445$ grep -r "great wall" written_2/
+written_2/travel_guides/berlitz1/WhereToIbiza.txt:        •The tunnel through the great wall leads to a classic
+written_2/travel_guides/berlitz1/WhereToIbiza.txt:        gateway through the great wall, where you’ll find yourself in the
+```  
+
 Source: https://man7.org/linux/man-pages/man1/grep.1.html    
   
 ## Option 2: -v  
