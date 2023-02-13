@@ -23,6 +23,25 @@ Source: https://man7.org/linux/man-pages/man1/grep.1.html
   
 Example 1:   
 ```
+[cs15lwi23ama@ieng6-201]:skill-demo1-data:454$ grep -v "The" written_2/travel_guides/berlitz1/HandRIbiza.txt
+
+
+
+
+
+        Recommended Hotels
+        local restaurants, and should convince you that not everything on the
+        island comes with chips (french fries).
+        offfical government rating system.
+        As a basic guide, the symbols we use indicate what you can
+        expect to pay for a three-course meal for two, excluding wine, tax and
+        tip. Drinks will add considerably to the final bill.
+        ✪less than 5,000 ptas.
+        ✪✪5,000–8,000 ptas.
+        ✪✪✪more than 8,000 ptas.
+
+
+
 
 ```
 
