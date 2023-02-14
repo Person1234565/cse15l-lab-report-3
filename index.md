@@ -10,7 +10,7 @@ written_2/travel_guides/berlitz1/HistoryJapan.txt:        segregated in the publ
 written_2/travel_guides/berlitz1/WhereToJapan.txt:        small traditional inns (ryokan) and bathhouses are now dwarfed by
 ```  
   
-In this example, while the input directory was written_2, because of the -r option, the command searched through each subdirectory to find matches for the string. Without the -r option, the command would simply search the folders and files directly under written_2/, which would have outputted nothing.   
+In this example, while the input directory was written_2/, because of the -r option, the command searched through each subdirectory to find matches for the string. Without the -r option, the command would simply search written_2/ itself, which would have outputted nothing.   
   
 Example 2:  
 ```
