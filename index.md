@@ -19,7 +19,7 @@ written_2/travel_guides/berlitz1/WhereToIbiza.txt:        •The tunnel through 
 written_2/travel_guides/berlitz1/WhereToIbiza.txt:        gateway through the great wall, where you’ll find yourself in the
 ```  
   
-In this example, the command is again searching through subdirectories that weren't directly under written_2/ to find matches for the specified string. This is due to the -r option, which tells the command to search each subdirectory recursively. 
+In this example, the command is again searching through subdirectories that weren't directly written_2/ to find matches for the specified string. This is due to the -r option, which tells the command to search each subdirectory recursively. 
 
 This option is extremely useful because you no longer have to use the find command to list all the subdirectories before running grep if you wished to search all the files in a directory. With this option, you simply add -r and it will recursively search for the string you want in all the files from a directory regardless of how the files are nested.   
   
